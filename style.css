@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}    
+  body{
+    background-color: #542B6A87;
+  }  
+.band{
+  height: 100vh;
+  width: 7.5em;
+  border: 0.28em solid #22202299;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  background: radial-gradient(#8C92D2,#67C66ACF);
+  background-size: 1.12em 1.12em;
+  background-position: -1.13em;
+  border-top: none;
+  border-bottom: none;
+}    
+ .band:before{
+  position: absolute;
+  content: "";
+  height: 100vh;
+  width: 1.87em;
+  background-color: #383948;
+  border: 0.12em solid gray;
+    position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  border-top: none;
+border-bottom: none;
+   }
+  .watch{
+   height: 10.25em;
+   width: 10.25em;
+   background-color: #f5f5f5;
+   position: absolute;
+   transform: translate(-50%, -50%);
+   left: 50%;
+   top: 50%;
+   border-radius: 50%;
+   box-shadow: 0 0 0 0.12em #3B5B5D, 0 0 0 0.93em #A4AEA9, 0 0 0 1.06em #3B5B5D;
+  } 
+  .pin{
+   position: absolute;
+   height: 1.25em;
+   width: 1.25em;
+   background: black;
+   border: 0.12em solid white;
+   border-radius: 8px;
+   transform: translate(-50%,-50%);
+   top: 50%;
+   left: calc(22% * 6.2);
+  }  
+  img{
+    height: 10.25em;
+    
+  }
+  .hand{
+    position: absolute;
+    margin: auto;
+    right: 0px;
+    left: 0px;
+    background-color: black;
+    border-radius: 31em;
+    transform-origin: bottom;
+  }
+  .hour{
+    height: 1.80em;
+    width: 0.18em;
+    top: 19em;
+  }
+  .minute{
+    height: 2.25em;
+    width: 0.13em;
+    top: 18.62em;
+  }
+  .seconds{
+    height: 3.25em;
+    width: 0.16em;
+    top: 17.50em;
+    background-color: #CF1F1FBA;
+  }
